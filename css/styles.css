@@ -99,6 +99,7 @@ color: #2E2F42;
   color: #2E2F42;
 }
 .purposes-item .texte {
+  font-weight: 400;
   font-size: 16px;
   line-height:var(--typical-lh);
   color: var(--main-text-color);
@@ -175,22 +176,13 @@ color: #F4F4FD;
 .header-logo {
 }
 .header-item {
-font-weight: 500;
-font-size: 16px;
-line-height: var(--typical-lh);
-letter-spacing: 0.02em;
-color: #2E2F42;
 }
 .header-link,
 .header-tel {
-font-size: 16px;
-line-height: var(--typical-lh);
-letter-spacing: 0.02em;
-color: var(--main-text-color);
 }
 .hero {
 }
-.hero-btn {
+.hero-btn .btn {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -199,14 +191,11 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: var(--first-btn-color);
+color: #4D5AE5; 
 cursor: pointer;
 }
-.hero-list {
-}
-.hero-item {
-}
-.hero-link {
+.hero-btn .btn-title {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: var(--typical-lh);
@@ -214,40 +203,36 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4D5AE5; 
+cursor: pointer;
+background: #404BBF;
+color: #FFFFFF;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
 }
 .hero-link:hover,
 .hero-link:focus{
- color: #4D5AE5; 
 }
-.section-one {
+.cards {
 }
-.section-one-list {
+.cards-list {
 }
-.section-one-foto {
+.cards-foto {
 }
-.section-one-title,
-.section-two-title,
-.section-three-title {
+.cards-list .title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.section-one-andre-title,
-.section-two-andre-title,
-.section-three-andre-title {
+.cards-list .texte {
 font-size: 16px;
 line-height: var(--typical-lh);
 letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
-.section-two {
-}
-.section-two-foto {
-}
-.section-three {
-}
-.section-three-foto {
-}
+
