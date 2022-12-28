@@ -9,6 +9,7 @@
 body{
   font-family: "Roboto",sans-serif;
   color: #000;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -47,13 +48,11 @@ color: #2E2F42;
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
-  letter-spacing: 0.02em;
   color: #2E2F42;
 }
 .header-link {
   font-size: 16px;
   line-height: var(--typical-lh);
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 .header-link:hover,
@@ -63,7 +62,6 @@ color: #2E2F42;
 .header-tel {
   font-size: 16px;
   line-height: var(--typical-lh);
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 /* ---------HERO-------- */
@@ -73,8 +71,7 @@ color: #2E2F42;
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
+  text-align: center;  
   color: var(--first-title-color);
 }
 .hero-btn {
@@ -85,6 +82,7 @@ color: #2E2F42;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--first-btn-color);
+  background: #4D5AE5;
   cursor: pointer;
 }
 .hero-btn:hover,
@@ -92,56 +90,49 @@ color: #2E2F42;
   color: #4D5AE5;
 }
 /* ---------PURPOSES-------- */
-.section-purposes {
+.purposes {
 }
-.section-purposes-item {
-}
-.section-purposes-title {
+.purposes-item .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em; 
   color: #2E2F42;
 }
-.section-purposes-andre-title {
+.purposes-item .texte {
   font-size: 16px;
   line-height:var(--typical-lh);
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 /* ---------BUSSINES-------- */
-.section-bussines {
+.bussines {
 }
-.section-bussines-title,.section-team-title {
+.bussines-title,.team-title {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
 }
-.section-bussines-foto {
+.bussines-foto {
 }
 /* ---------TEAM-------- */
-.section-team {
+.team {
 }
-.section-team-title {
+.team-list .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #2E2F42;
 }
-.section-team-foto {
+.team-foto {
 }
-.section-team-andre-title {
+.team-list .texte {
   font-weight: 400;
   font-size: 16px;
   line-height: var(--typical-lh);
   text-align: center; 
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 /* ---------FOOTER-------- */
