@@ -10,7 +10,7 @@ body{
   font-family: "Roboto",sans-serif;
   color: #000;
   letter-spacing: 0.02em;
-}
+  }
 .list {
   list-style: none;
 }
@@ -64,15 +64,19 @@ color: #2E2F42;
   line-height: var(--typical-lh);
   color: var(--main-text-color);
 }
+.header-tel:hover,
+.header-tel:focus{
+ color: #4D5AE5; 
+}
 /* ---------HERO-------- */
 .hero {
 }
 .hero-title {
-  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;  
   color: var(--first-title-color);
+  background: #2E2F42;;
 }
 .hero-btn {
   font-family: inherit;
@@ -82,12 +86,12 @@ color: #2E2F42;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--first-btn-color);
-  background: #4D5AE5;
+  background-color: #4D5AE5;
   cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus{
-  color: #4D5AE5;
+  background-color: #E7E9FC;
 }
 /* ---------PURPOSES-------- */
 .purposes {
@@ -182,19 +186,22 @@ color: #F4F4FD;
 }
 .hero {
 }
-.hero-btn .btn {
+.hero-portfolio-btn .btn {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: var(--typical-lh);
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5; 
 cursor: pointer;
 }
-.hero-btn .btn-title {
+.hero-portfolio-btn .btn:hover,
+.hero-portfolio-btn .btn:focus{
+  background-color: #4D5AE5;
+}
+.hero-portfolio-btn .btn-title {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -206,6 +213,10 @@ letter-spacing: 0.04em;
 cursor: pointer;
 background: #404BBF;
 color: #FFFFFF;
+}
+.hero-portfolio-btn .btn-title:hover,
+.hero-portfolio-btn .btn-title:focus{
+  background-color: #E7E9FC;
 }
 .hero-list {
 }
