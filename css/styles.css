@@ -142,6 +142,7 @@ color: #2E2F42;
 }
 /* ---------FOOTER-------- */
 .footer {
+background: #2E2F42;
 }
 .footer-logo {
 font-family: 'Raleway', sans-serif;
@@ -184,9 +185,9 @@ color: #F4F4FD;
 .header-link,
 .header-tel {
 }
-.hero {
+.cards {
 }
-.hero-portfolio-btn .btn {
+.cards-btn .btn {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -194,14 +195,14 @@ line-height: var(--typical-lh);
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4D5AE5; 
+background: #F4F4FD; 
 cursor: pointer;
 }
-.hero-portfolio-btn .btn:hover,
-.hero-portfolio-btn .btn:focus{
-  background-color: #4D5AE5;
+.cards-btn .btn:hover,
+.cards-btn .btn:focus{
+background: #404BBF;
 }
-.hero-portfolio-btn .btn-title {
+.cards-btn .btn-title {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -214,20 +215,9 @@ cursor: pointer;
 background: #404BBF;
 color: #FFFFFF;
 }
-.hero-portfolio-btn .btn-title:hover,
-.hero-portfolio-btn .btn-title:focus{
-  background-color: #E7E9FC;
-}
-.hero-list {
-}
-.hero-item {
-}
-.hero-link {
-}
-.hero-link:hover,
-.hero-link:focus{
-}
-.cards {
+.cards-btn .btn-title:hover,
+.cards-btn .btn-title:focus{
+background-color: #E7E9FC;
 }
 .cards-list {
 }
