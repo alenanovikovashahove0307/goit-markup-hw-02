@@ -207,9 +207,10 @@ cursor: pointer;
 }
 .cards-btn .btn:hover,
 .cards-btn .btn:focus{
-background-color: var(--footer-text-color);
+background-color: var(--logo-color);
+color: var(--first-btn-color);
 }
-.cards-btn .btn-title {
+/* .cards-btn .btn-title {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -225,7 +226,7 @@ color: var(--first-btn-color);
 .cards-btn .btn-title:hover,
 .cards-btn .btn-title:focus{
 background-color: var(--logo-color);
-}
+} */
 .cards-list {
 }
 .cards-foto {
