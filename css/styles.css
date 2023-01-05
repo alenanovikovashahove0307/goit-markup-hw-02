@@ -210,23 +210,7 @@ cursor: pointer;
 background-color: var(--logo-color);
 color: var(--first-btn-color);
 }
-/* .cards-btn .btn-title {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: var(--typical-lh);
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-cursor: pointer;
-background: var(--present-btn);
-color: var(--first-btn-color);
-}
-.cards-btn .btn-title:hover,
-.cards-btn .btn-title:focus{
-background-color: var(--logo-color);
-} */
+
 .cards-list {
 }
 .cards-foto {
